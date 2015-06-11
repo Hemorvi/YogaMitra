@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+
+    <!--<style name="AppTheme" parent="AppTheme.Base" />-->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+<!--        <item name="actionBarSize">150dip</item>
+        <item name="android:gravity">top</item>-->
+
+        <!-- Customize your theme here. -->
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@drawable/actionbar</item>
+
+        <item name="android:icon">@drawable/yoga_mitra_logo</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@drawable/actionbar</item>
+        <item name="textAllCaps">false</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+        which is used to tint widgets -->
+        <item name="colorAccent">#20b1aa</item>
+
+        <!--<item name="android:activatedBackgroundIndicator">@drawable/my_background</item>-->
+        <!-- You can also set colorControlNormal, colorControlActivated
+        colorControlHighlight & colorSwitchThumbNormal. -->
+    </style>
+
+
+
+</resources>
